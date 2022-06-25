@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+}
+#header{
+	width:auto;
+	height:80;
+	background-color:grey;
+}
+#bar{
+	margin-top:25;
+	text-align:center;
+	height:80;
+	width:18%;
+	float:left;
+	margin-right:5;
+	color:lime;
+	text-decoration:none;
+}
+#login_atas{
+	margin-top:22;
+	margin-left:50;
+	float:left;
+	border-style:groove;
+	background-color:lime;
+	border-radius:30px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:3px;
+}
+.logo{
+	float:left;
+	height:80;
+	width:23%;
+}
+.bgimage{
+	background-image:url(1804.jpg);
+	background-size:cover;
+	height:100%;
+	width:100%;
+	position:relative;
+	background-attachment:fixed;
+}
+.articles2{
+	padding-top:15px;
+	height:25%;
+	width:49%;
+	float:right;
+	text-align:center;
+	border:3px;
+	border-style:groove;
+	background-color:lime;
+}
+.articles1{
+	padding-top:15px;
+	height:25%;
+	width:49%;
+	float:left;
+	text-align:center;
+	border:3px;
+	border-style:groove;
+	background-color:lime;
+}
+#footer{
+	background-color:green;
+	width:100%;
+	text-align:center;
+}
+#center-text{
+	padding-top:300px;
+	text-align:center;
+	color:white;
+}
+#register{
+	position:absolute;
+	top:60%;
+	left:39%;
+	text-align:center;
+	border-style:groove;
+	background-color:lime;
+	border-radius:30px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:3px;
+	color:darkgreen;
+	text-decoration:none;
+}
+#bottom{
+	width:auto;
+	height:80;
+	background-color:green;
+	border-radius:0px;
+	background-attachment:fixed;
+}
+#aboutthis{
+	width:100%;
+	height:auto;
+	background-image:url('summer.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+}
+#konten{
+	width:auto;
+	height:auto;
+	background-image:url('1804.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+	border-style:groove;
+	border-radius:10px;
+}

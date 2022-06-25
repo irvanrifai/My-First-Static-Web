@@ -1,0 +1,24 @@
+<p>Username<input type='text' name='username' onclick='login();'></p>
+<p>Password<input type='password' name='sandi' onclick='login();' ></p>
+
+<script type='text/javasript'>
+function login(){
+
+var username=document.login.username.value;
+username=username.toLowerCase();
+var sandi=document.login.sandi.value;
+sandi=sandi.toLowerCase();
+
+	if (username=="irvan" && password=="L200180214"){
+		alert("Welcome to Informatics Ware");
+		window.location="creator.html";
+	}
+	else if (username=="alip" && password=="L200180215"){
+		alert("Welcome to Informatics Ware");
+		window.location="halah.html";
+	}
+	else {
+		alert("username atau password yang anda masukan salah");
+	}
+}
+</script>

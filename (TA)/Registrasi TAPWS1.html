@@ -1,0 +1,100 @@
+<html>
+<head>
+<title> Registrasi </title>
+<script type='text/javascript'>
+function registrasi(){
+Win=window.open('','NewWin','toolbar=no,status=no,width=500,height=300')
+message='<ul><li><b>Foto:</b>' + document.form1.photo.value;
+message+='<li><b>Nama:</b>' + document.form1.name.value;
+message+='<li><b>Nomor Induk Kependudukan:</b>' + document.form1.NIK.value;
+message+='<li><b>Tempat,Tanggal lahir:</b>' + document.form1.TTL.value;
+message+='<li><b>Jenis Kelamin:</b>' + document.form1.jk.value;
+message+='<li><b>Agama:</b>' + document.form1.Agama.value;
+message+='<li><b>Username:</b>' + document.form1.username.value;
+message+='<li><b>Password:</b>' + document.form1.pass.value +'<ul>'
+Win.document.write(message);
+}
+</script>
+</head>
+<body> 
+<p align ='center'><b> FORM NEW MEMBER </b></p><br>
+<form name='form1' method='post'>
+<table border='0' align='center'>
+	<tr>
+		<td>Upload Foto</td>
+		<td>:</td>
+		<td>
+			<input type='file' name='photo' required></input>
+		</td>
+	</tr>
+	<tr>
+		<td>Nama</td>
+		<td>:</td>
+		<td>
+			<input type='text' name='name' placeholder='Masukkan Nama'required></input>
+		</td>
+	</tr>
+	<tr>
+		<td>Nomor Induk Kependudukan</td>
+		<td>:</td>
+		<td>
+			<input type='text' name='NIK' placeholder='Masukkan NIK' maxlength='16' required></input>
+		</td>
+	</tr>
+	<tr>
+		<td>Tempat,Tanggal lahir</td>
+		<td>:</td>
+		<td>
+			<input type='text' name='TTL'required></input>
+		</td>
+	</tr>
+	<tr>
+		<td>Jenis Kelamin</td>
+		<td>:</td>
+		<td>
+			<input type='radio' name='jk' value='Lelaki'> Laki-Laki<br></input>
+			<input type='radio' name='jk' value='Wanita'> Perempuan<br></input>
+			<input type='radio' name='jk' value='Lainya'> Lainya</input>
+		</td>
+	</tr>
+	<tr>
+		<td>Agama</td>
+		<td>:</td>
+		<td>
+		<select name ='Agama'>
+			<option hidden>--Pilih Agama--</option>
+			<option> Islam </option>
+			<option> Kristen </option>
+			<option> Katholik </option>
+			<option> Hindu </option>
+			<option> Budha </option>
+			<option> Kong Hu Cu </option>
+			<option> Lainya </option>
+		</select></td>
+	<tr>
+		<td>Username</td>
+		<td>:</td>
+		<td>
+			<input type='text' name='username' placeholder='Masukkan Username' maxlength='15' required></input>
+		</td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td>:</td>
+		<td>
+			<input type='password' name='pass' placeholder='Masukkan Password' maxlength='10' required></input>
+		</td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td>
+			<input type='submit' name='daftar' value='Registrasi'onClick='registrasi()'></input>
+			<input type='reset' name='batal' value='BATAL'></input>
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html> 

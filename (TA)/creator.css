@@ -1,0 +1,54 @@
+#main{
+	width:100%;
+	height:700;
+	background-image:url ('background-kartu-nama-coreldraw-1.png');
+}
+#head{
+	width:100%;
+	height:80;
+	background-image:url('green.jpg');
+	border-radius:0px;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#body{
+	width:100%;
+	height:100%;
+	background-image:url('green.jpg');
+	background-size:cover;
+	background-attachment:fixed;
+}
+#bottom{
+	width:auto;
+	height:80;
+	background-color:green;
+	border-radius:0px;
+	background-attachment:fixed;
+}
+#kiri1{
+	width:350;
+	height:500;
+	background-image:url('gold_milliard_2.jpg');
+	background-size:cover;
+	float:left;
+	border-radius:20px;
+	border-style:groove;
+}
+#kiri2{
+	width:350;
+	height:500;
+	background-image:url('gold_milliard_2.jpg');
+	background-size:cover;
+	float:right;
+	border-radius:20px;
+	border-style:groove;
+}
+#kanan1{
+	width:350;
+	height:500;
+	background-image:url('gold_milliard_2.jpg');
+	background-size:cover;
+	float:center;
+	border-radius:20px;
+	border-style:groove;
+}

@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title>Login Pegawai</title>
+	<script type='text/javasript'> 
+	</script>
+	<link rel='stylesheet' type='text/css' href='login1.css'>	
+<script type="text/javascript">
+	function check() {
+		var username=document.login.username.value;
+
+		var sandi=document.login.sandi.value;
+
+		if (username=="irvan" && sandi=="L200180214"){
+			alert("Welcome to Informatics Ware");
+			window.location="login irvan.html";
+		}
+		else if (username=="alip" && sandi=="L200180215"){
+			alert("Welcome to Informatics Ware");
+			window.location="login alip.html";
+		}
+		else if (username=="riska" && sandi=="L200180192"){
+			alert("Welcome to Informatics Ware");
+			window.location="riska login.html";
+		}
+		else {
+			alert("username atau password yang anda masukan salah");
+		}
+	}
+</script>
+</head>
+<body>
+<div id='body'>
+<form name="login" method="post" action='creator.html'id="masuk">
+<br><br><br><br>
+<center><div id='main'>
+<br>
+<center><img src='big project.png' width='419' height='114'></center><br>
+<table border="0" align="center">
+<input type='hidden' name='login pegawai' value='belum masuk'>
+	<tr>
+		<td><b><font size='4'>Username</font></b></td>
+	<tr>
+		<td>
+			<input type='text' name='username' placeholder='' maxlength='20' required>
+		</td>
+	</tr>
+	</tr>
+	<tr>
+		<td colspan="2"><br></td>
+		<td colspan="2"><br></td>
+	</tr>
+	<tr><br><br><br>
+		<td><b><font size='4'>Password</font></b></td>
+	<tr>
+		<td>
+			<input type='password' name='sandi' placeholder='' maxlength='12' required>
+		</td>
+	</tr>
+	</tr>
+	<tr>
+		<td colspan="2"><br></td>
+		<td colspan="2"><br></td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+	<tr>
+		<td>
+			<input type='hidden' name='submit and reset'>
+		</td>
+		<td></td>
+		<td>
+			<input type='button' name='daftar' value='Sign in' onclick='check();'>
+			<input type='reset' name='batal' value='Cancel'>
+		</td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+	<tr>
+		<td>
+		<a href='Registrasi.html'><font color='black' face='arial'><b>Sign up?</b></font></a>
+		</td>
+	</tr>
+</table>
+</form>
+</div></center>
+</div>
+</body>
+</html>
